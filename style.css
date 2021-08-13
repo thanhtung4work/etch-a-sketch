@@ -1,0 +1,38 @@
+*, *::after, *::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 110%;
+}
+
+.btn{
+    display: block;
+    padding: 2vh 2vw;
+    font-weight: bold;
+    margin: 1vh 1vw;
+}
+
+.container{
+    display: flex;
+}
+
+.container.centered{
+    justify-content: center;
+}
+
+.grid{
+    border: 2px solid red;
+    width: 600px; height: 600px;
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+
+.active{
+    background-color: black;
+}
