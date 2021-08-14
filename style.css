@@ -15,11 +15,11 @@ html{
     margin: 1vh 1vw;
 }
 
-.container{
+.flex-container{
     display: flex;
 }
 
-.container.centered{
+.flex-container.centered{
     justify-content: center;
 }
 
@@ -49,10 +49,7 @@ html{
     }
 } 
 
-
-
 .active{
-    background-color: black;
     border: 0.1px solid white;
     border-radius: 0.2px;
 }

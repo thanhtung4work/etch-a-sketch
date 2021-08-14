@@ -15,12 +15,18 @@
             <p>Have some fun, life is hard</p>
         </header>
         <main>
-            <div class="controls container">
+            <div class="controls flex-container">
                 <button id='reset' class='btn'>Reset</button>
                 <input type="number" placeholder="grid size" class='btn' id='input'>
                 <button id='apply' class='btn'>Apply</button>
             </div>
-            <p>Grid: <span id='gridOutput'>8 x 8</span></p>
+            <div class="flex-container">
+                <button id='blackBtn' class='btn'>Black</button>
+                <button id='rainbowBtn' class='btn'>Rainbow</button>
+                <button id='eraserBtn' class='btn'>Eraser</button>
+            </div>
+            <p>Grid: <span id='gridOutput'>10 x 10</span></p>
+            <p id="status">Black</p>
             <div class="grid">
     
             </div>
