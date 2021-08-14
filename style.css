@@ -25,14 +25,34 @@ html{
 
 .grid{
     border: 2px solid red;
-    width: 600px; height: 600px;
+    width: 350px; height: 350px;
     position: relative;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
 }
 
+.main{
+    width: 90vw;
+    margin: auto;
+}
+
+@media only screen and (min-width: 768px){
+    .grid{
+        width: 640px; height: 640px;
+    }
+
+    
+    .main{
+        width: 70vw;
+        margin: auto;
+    }
+} 
+
+
 
 .active{
     background-color: black;
+    border: 0.1px solid white;
+    border-radius: 0.2px;
 }
